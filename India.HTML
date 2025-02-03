@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <title>India Map </title>
+    <link rel="stylesheet" href="Indiastyle.css">
+    <script src="Map.js"></script>
+</head>
+
+<body style="position:relative;background:linear-gradient(to bottom,orange 0% 30%,white 40% 70% ,green 80% 100% )">
+    <div>
+        <center><img src="india.webp"  class="main" usemap="#image-map">
+
+            <map name="image-map">
+
+                <area class="tn" target="blank" alt="Tamilnadu" onmouseover="tamilnadu()" onmouseout="remove()"
+                    title="Tamilnadu" href="https://en.wikipedia.org/wiki/Tamilnadu"
+                    coords="360,832,359,844,363,865,364,879,350,881,340,894,337,901,334,908,330,914,323,916,312,919,308,927,308,936,301,943,294,946,283,949,273,946,280,935,277,922,284,903,277,898,280,885,278,875,267,878,267,867,266,857,262,851,250,839,268,835,281,830,290,824,295,820,291,810,296,802,306,796,319,801,325,796,331,791,339,790,350,786,362,782,378,772,378,798"
+                    shape="poly">
+                <area target=" " alt="Kerala" title="Kerala" onmouseover="kerala()" onmouseout="remove()"
+                    href="https://en.wikipedia.org/wiki/Kerala"
+                    coords="207,800,220,803,228,813,238,820,246,828,249,838,256,845,262,854,263,863,263,873,273,875,278,883,281,896,280,908,277,922,276,929,276,938,265,934,254,918,238,863,213,816,228,841,232,847,223,829,250,908,239,874"
+                    shape="poly">
+                <area target="_blank" alt="Karnataka" onmouseover="karnataka()" onmouseout="remove()" title="Karnataka"
+                    href="https://en.wikipedia.org/wiki/Karnataka"
+                    coords="286,761,283,753,274,757,270,746,269,734,271,726,276,715,288,692,291,625,280,623,190,672,194,688,191,693,187,699,191,706,189,719,192,730,192,738,199,753,201,766,203,774,208,790,205,785,213,795,222,804,245,820,229,812,261,834,291,832,291,823,291,813,291,804,301,798,314,799,321,792,321,783,315,775,306,765,295,764,281,764,272,764,286,761"
+                    shape="poly">
+                <area target="_blank" alt="Andhrapradesh" onmouseover="Andra()" onmouseout="remove()"
+                    title="Andhrapradesh" href="https://en.wikipedia.org/wiki/Andhrapradesh"
+                    coords="362,773,369,772,370,711,400,691,441,669,474,626,513,599,477,600,412,637,363,673,337,689,276,698,268,739,330,791,371,764,360,758"
+                    shape="poly">
+                <area target="_blank" alt="Maharashtra" onmouseover="Maharastra()" onmouseout="remove()"
+                    title="Maharashtra" href="https://en.wikipedia.org/wiki/Maharashtra"
+                    coords="148,559,170,698,234,643,321,571,378,591,383,519,289,519,247,525,220,517,205,502,194,526,169,543,160,554,155,558,153,558,156,550"
+                    shape="poly">
+                <area target="_blank" alt="Telangana" onmouseover="Telangana()" onmouseout="remove()" title="Telangana"
+                    href="https://en.wikipedia.org/wiki/Telangana"
+                    coords="305,594,320,574,358,582,376,608,390,620,405,651,340,680,313,694,288,691,290,659"
+                    shape="poly">
+                <area target="_blank" alt="Odisha" onmouseover="Odisha()" onmouseout="remove()" title="Chhattisgarh"
+                    href="https://en.wikipedia.org/wiki/Odisha"
+                    coords="539,498,560,484,581,500,570,541,566,561,532,562,520,584,503,599,479,592,416,633,433,577,447,540,489,482,516,489"
+                    shape="poly">
+                <area target="_blank" alt="Goa" onmouseover="Goa()" onmouseout="remove()" title="Goa"
+                    href="https://en.wikipedia.org/wiki/Goa" coords="184,702,190,711,188,721,181,722,179,712,176,704"
+                    shape="poly">
+                <area target="_blank" alt="Ladakh" onmouseover="Ladakh()" onmouseout="remove()" title="Ladakh"
+                    href="https://en.wikipedia.org/wiki/Ladakh"
+                    coords="205,72,195,58,187,52,175,47,180,33,192,24,208,22,226,14,246,19,265,35,290,57,300,69,329,58,363,56,375,65,366,90,353,102,340,116,338,133,351,148,346,163,328,157,302,147,281,136,268,121,245,102,242,89,227,83"
+                    shape="poly">
+                <area target="_blank" onmouseover="Jammu()" onmouseout="remove()" alt="Jammu&Kashmir"
+                    title="Jammu&Kashmir" href="https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)"
+                    coords="217,77,207,84,195,95,196,111,197,130,204,143,225,151,234,162,251,162,256,145,272,138,261,122,245,98,242,88"
+                    shape="poly">
+                <area target="_blank" onmouseover="Himachal()" onmouseout="remove()" alt="Himachal Pradesh"
+                    title="Himachal Pradesh" href="https://en.wikipedia.org/wiki/Himachal_Pradesh"
+                    coords="311,156,297,153,279,142,258,150,253,171,262,190,274,201,283,217,298,230,308,209,324,203,337,206,332,184,327,166"
+                    shape="poly">
+                <area target="_blank" alt="Punjab" onmouseover="Punjab()" onmouseout="remove()" title="Punjab"
+                    href="https://en.wikipedia.org/wiki/Punjab"
+                    coords="203,228,220,206,226,181,246,171,252,180,261,201,276,215,275,234,256,246,237,249,209,242"
+                    shape="poly">
+                <area target="_blank" alt="Uttarakhand" onmouseover="Uttarkhand()" onmouseout="remove()"
+                    title="Uttarakhand" href="https://en.wikipedia.org/wiki/Uttarakhand"
+                    coords="337,206,321,206,311,217,311,230,311,247,323,251,336,265,349,272,363,278,375,255,383,238,371,220,351,211"
+                    shape="poly">
+                <area target="" alt="Haryana" onmouseover="Haryana()" onmouseout="remove()" title="Haryana"
+                    href="https://en.wikipedia.org/wiki/Haryana"
+                    coords=276,292,281,279,283,264,288,247,294,233,286,224,274,242,264,249,248,252,231,258,226,252,221,251,244,281,256,294,268,301,283,307,291,305
+                    shape="poly">
+                <area target="_blank" alt="Delhi" onmouseover="Delhi()" onmouseout="remove()" title="Delhi"
+                    href="https://en.wikipedia.org/wiki/Delhi" coords="290,285,283,284,282,291,291,293" shape="poly">
+                <area target="_blank" alt="Rajasthan" onmouseover="Rajasthan()" onmouseout="remove()" title="Rajasthan"
+                    href="https://en.wikipedia.org/wiki/Rajasthan"
+                    coords="193,243,149,291,105,313,87,312,79,344,87,363,99,377,114,404,149,409,174,422,181,440,204,457,213,419,230,404,251,419,247,430,266,421,278,409,278,396,271,376,285,363,303,353,306,346,295,332,288,321,276,313,252,313,246,290,238,274,215,263,215,250"
+                    shape="poly">
+                <area target="_blank" alt="Uttar Pradesh" onmouseover="Uttar()" onmouseout="remove()"
+                    title="Uttar Pradesh" href="https://en.wikipedia.org/wiki/Uttarpradesh"
+                    coords="307,236,298,240,289,250,288,269,291,283,299,300,299,314,296,319,304,334,321,342,346,356,341,375,333,387,347,397,364,396,381,396,407,396,429,406,449,410,458,437,465,401,488,377,478,350,477,326,450,327,414,314,393,294,357,285,325,264,311,260"
+                    shape="poly">
+                <area target="_blank" alt="Gujarat" onmouseover="Gujarat()" onmouseout="remove()" title="Gujarat"
+                    href="https://en.wikipedia.org/wiki/Gujarat"
+                    coords="100,422,76,418,43,419,30,428,35,440,58,458,94,451,86,468,67,479,46,483,59,497,71,516,98,530,120,517,137,486,157,486,159,510,156,521,155,543,167,548,178,534,179,517,183,503,192,489,201,465,174,441,148,420,122,409,114,411"
+                    shape="poly">
+                <area target="_blank" onmouseover="MP()" onmouseout="remove()" alt="Madhya Pradesh"
+                    title="Madhya Pradesh" href="https://en.wikipedia.org/wiki/MadhyaPradesh"
+                    coords="327,346,310,354,285,367,270,381,289,391,296,400,281,407,283,427,260,432,242,446,233,440,240,422,227,413,220,422,220,443,214,461,202,477,203,495,233,516,263,524,297,504,329,514,369,508,389,508,407,480,426,461,421,437,447,420,407,404,375,410,348,405,321,399,341,364"
+                    shape="poly">
+                <area target="_blank" onmouseover="Chatti()" onmouseout="remove()" alt="Chhattisgarh"
+                    title="Chhattisgarh" href="https://en.wikipedia.org/wiki/Chhattisgarh"
+                    coords="403,492,437,459,422,443,446,441,466,435,492,474,472,496,465,514,448,522,435,539,440,564,422,556,431,600,403,632,383,597,387,567,385,532"
+                    shape="poly">
+                <area target="_blank" alt="Bihar" onmouseover="Bihar()" onmouseout="remove()" title="Bihar" href="https://en.wikipedia.org/wiki/Bihar"
+                    coords="485,328,494,345,490,361,502,375,481,391,467,403,473,415,501,413,521,415,548,405,577,398,596,380,596,363,599,357,575,361,541,350,522,345"
+                    shape="poly">
+                <area target="_blank" alt="Jharkhand" onmouseover="Jhar()" onmouseout="remove()"title="Jharkhand" href="https://en.wikipedia.org/wiki/Jharkhand"
+                    coords="494,422,479,418,472,426,484,443,494,461,497,478,508,484,522,488,539,495,547,479,569,487,544,460,546,450,572,436,596,418,599,404,593,399,586,396,577,411,558,420,536,413,519,422"
+                    shape="poly">
+                <area target="_blank" alt="WestBengal" title="WestBengal" onmouseover="West()" onmouseout="remove()"
+                    href="https://en.wikipedia.org/wiki/WestBengal"
+                    coords="639,360,650,349,646,340,624,333,607,330,606,346,605,357,599,368,600,382,600,396,597,420,573,441,552,455,574,481,586,497,596,502,614,486,623,499,636,494,629,467,619,440,620,425,606,417,611,398,619,387,612,379,615,355"
+                    shape="poly">
+                <area target="_blank" alt="Meghalaya" onmouseover="Meghalaya()" onmouseout="remove()" title="Meghalaya" href="https://en.wikipedia.org/wiki/Meghalaya"
+                    coords="657,380,665,365,687,365,715,358,724,369,738,381,725,384,700,385,672,382" shape="poly">
+                <area target="_blank" alt="Assam" onmouseover="Assam()" onmouseout="remove()" title="Assam" href="https://en.wikipedia.org/wiki/Assam"
+                    coords="654,363,655,342,667,337,693,339,705,333,741,328,773,303,802,293,819,283,817,295,821,303,794,324,773,339,765,357,756,368,755,378,752,389,745,401,736,410,728,406,729,397,737,384,736,370,722,361,702,358,676,360"
+                    shape="poly">
+                <area target="_blank" onmouseover="Arunachal()" onmouseout="remove()" alt="ArunalPradesh" title="ArunalPradesh"
+                    href="https://en.wikipedia.org/wiki/ArunacalPradesh"
+                    coords="810,315,808,325,820,313,829,303,844,300,854,307,851,291,859,275,843,269,829,260,823,247,818,239,804,252,785,249,768,254,757,270,746,277,734,290,721,301,705,304,712,309,715,320,734,323,759,319,768,305,785,299,805,288,817,284,823,300"
+                    shape="poly">
+                <area target="_blank" onmouseover="Nagaland()" onmouseout="remove()"alt="Nagaland" title="Nagaland" href="https://en.wikipedia.org/wiki/Nagaland"
+                    coords="801,356,805,323,797,324,788,332,778,343,766,358,761,370,778,367,790,359" shape="poly">
+                <area target="_blank" alt="Manipur" onmouseover="Manipur()" onmouseout="remove()" title="Manipur" href="https://en.wikipedia.org/wiki/Manipur"
+                    coords="788,367,794,384,786,407,774,417,757,414,752,401,757,382,771,372" shape="poly">
+                <area target="" alt="Mizoram" onmouseover="Mizoram()" onmouseout="remove()" title="Mizoram" href="https://en.wikipedia.org/wiki/Mizoram"
+                    coords="740,410,757,419,759,437,757,481,745,482,738,458,727,422" shape="poly">
+                <area target="_blank" alt="Tripura" onmouseover="Tripura()" onmouseout="remove()"title="Tripura" href="https://en.wikipedia.org/wiki/Tripura"
+                    coords="703,426,722,408,727,424,712,448,701,448,696,434" shape="poly">
+
+                <div id="ans">
+                    <h1 class="state"></h1>
+                    <h4 class="party"></h4>
+                    <img id="pic" src="" style="height :200px;width:150px">
+                </div>
+            </map>
+        </center>
+    </div>
+</body>
+
+</html>
